@@ -1,0 +1,29 @@
+{
+  "num_labels": 9,
+  "label_map": {
+    "0": "neutral",
+    "1": "calm",
+    "2": "happy",
+    "3": "sad",
+    "4": "angry",
+    "5": "fear",
+    "6": "disgust",
+    "7": "surprise",
+    "8": "anxiety"
+  },
+  "label2id": {
+    "neutral": 0,
+    "calm": 1,
+    "happy": 2,
+    "sad": 3,
+    "angry": 4,
+    "fear": 5,
+    "disgust": 6,
+    "surprise": 7,
+    "anxiety": 8
+  },
+  "model_name": "facebook/wav2vec2-base",
+  "sample_rate": 16000,
+  "max_duration_sec": 6.0,
+  "label_space": "audio_v1"
+}

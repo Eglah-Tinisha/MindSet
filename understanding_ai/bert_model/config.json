@@ -1,0 +1,33 @@
+{
+  "num_labels": 26,
+  "label_map": {
+    "0": "anger",
+    "1": "anticipation",
+    "2": "anxiety",
+    "3": "awe",
+    "4": "boredom",
+    "5": "confusion",
+    "6": "contempt",
+    "7": "disgust",
+    "8": "envy",
+    "9": "excitement",
+    "10": "fear",
+    "11": "frustration",
+    "12": "gratitude",
+    "13": "guilt",
+    "14": "hope",
+    "15": "joy",
+    "16": "loneliness",
+    "17": "love",
+    "18": "nostalgia",
+    "19": "pride",
+    "20": "relief",
+    "21": "sadness",
+    "22": "serenity",
+    "23": "shame",
+    "24": "surprise",
+    "25": "trust"
+  },
+  "model_name": "bert-base-uncased",
+  "max_len": 128
+}

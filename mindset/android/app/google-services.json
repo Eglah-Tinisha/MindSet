@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552426657183",
+    "project_id": "mindset-etk",
+    "storage_bucket": "mindset-etk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552426657183:android:e4e69095edac4b196399aa",
+        "android_client_info": {
+          "package_name": "com.example.mindset"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI489m3_55FW9qWT9e9OD63hFLChCjx0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

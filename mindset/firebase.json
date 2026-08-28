@@ -1,0 +1,28 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mindset-etk",
+          "appId": "1:552426657183:android:e4e69095edac4b196399aa",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mindset-etk",
+          "configurations": {
+            "android": "1:552426657183:android:e4e69095edac4b196399aa",
+            "ios": "1:552426657183:ios:146300367177503c6399aa",
+            "macos": "1:552426657183:ios:146300367177503c6399aa",
+            "web": "1:552426657183:web:00602a4659ed4b8b6399aa",
+            "windows": "1:552426657183:web:580d527f9ac3db986399aa"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

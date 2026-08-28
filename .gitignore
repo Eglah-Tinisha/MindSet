@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+.env
+**/.env
+
+.cache/
+**/.cache/
+
+
+# ==============================
+# Flutter / Dart
+# ==============================
+
+.dart_tool/
+**/.dart_tool/
+
+.dart-localappdata/
+**/.dart-localappdata/
+
+.pub-cache/
+**/.pub-cache/
+
+.pub/
+**/.pub/
+
+build/
+**/build/
+
+coverage/
+**/coverage/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+
+# ==============================
+# IDE
+# ==============================
+
+.idea/
+**/.idea/
+*.iml
+.vscode/
+
+
+# ==============================
+# AI training checkpoints
+# ==============================
+
+**/checkpoint-*/
+
+
+# ==============================
+# Generated/local files
+# ==============================
+
+*.log
+firebase-debug.log
+
+cloudflared.exe
+**/cloudflared.exe
+
+.agents/
+**/.agents/
+
+.DS_Store
+Thumbs.db

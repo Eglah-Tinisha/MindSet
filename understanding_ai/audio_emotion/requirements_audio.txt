@@ -1,0 +1,15 @@
+# Audio SER (Phase 1) — install alongside understanding_ai/requirements_api.txt
+torch
+torchaudio
+transformers
+accelerate
+datasets
+soundfile
+librosa
+numpy
+pandas
+scikit-learn
+fastapi
+uvicorn
+python-multipart
+pydantic

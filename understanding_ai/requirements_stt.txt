@@ -1,0 +1,4 @@
+﻿# Speech-to-text for multimodal voice journals
+faster-whisper
+# optional: helps some audio containers; WAV works without it
+# ffmpeg must be installed on the system PATH for webm/m4a in some setups
