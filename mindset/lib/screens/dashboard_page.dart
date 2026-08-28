@@ -131,14 +131,6 @@ class DashboardPage extends StatelessWidget {
                     color: MindSetTheme.success,
                     onTap: onViewInsights,
                   ),
-                  StatTile(
-                    label: 'Current streak',
-                    value:
-                        '${analytics.currentStreak} ${analytics.currentStreak == 1 ? 'day' : 'days'}',
-                    icon: Icons.local_fire_department_outlined,
-                    color: MindSetTheme.warning,
-                    onTap: onViewReports,
-                  ),
                 ],
               );
             },

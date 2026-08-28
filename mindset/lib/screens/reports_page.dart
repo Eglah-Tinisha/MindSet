@@ -36,18 +36,8 @@ class ReportsPage extends StatelessWidget {
                 ),
                 const Divider(height: 1),
                 ReportMetricRow(
-                  label: 'Entries analyzed',
-                  value: '${analytics.totalAnalyzed}',
-                ),
-                const Divider(height: 1),
-                ReportMetricRow(
                   label: 'Most frequent emotion',
                   value: analytics.mostCommonEmotion,
-                ),
-                const Divider(height: 1),
-                ReportMetricRow(
-                  label: 'Highest stress window',
-                  value: analytics.highestStressWindow,
                 ),
                 const Divider(height: 1),
                 ReportMetricRow(

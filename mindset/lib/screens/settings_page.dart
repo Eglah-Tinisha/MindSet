@@ -238,15 +238,6 @@ class _SettingsPageState extends State<SettingsPage> {
             onChanged: (value) =>
                 _update(widget.settings.copyWith(autoSaveEntries: value)),
           ),
-          const SizedBox(height: 12),
-          SettingsSwitchTile(
-            icon: Icons.calendar_month_outlined,
-            title: 'Weekly summary',
-            subtitle: 'Prepare a report at the end of each week.',
-            value: widget.settings.weeklySummary,
-            onChanged: (value) =>
-                _update(widget.settings.copyWith(weeklySummary: value)),
-          ),
           const SizedBox(height: 18),
           const SectionHeader(title: 'Local AI Endpoint'),
           WellnessCard(
@@ -289,7 +280,7 @@ class _SettingsPageState extends State<SettingsPage> {
             icon: Icons.keyboard_alt_outlined,
             title: 'Typing pattern insights',
             subtitle:
-                'Optionally analyze aggregate editing pace, pauses, and corrections for text journals.',
+                'Optionally analyze typing behaviour for text journals.',
             value: widget.settings.typingRhythm,
             onChanged: (value) =>
                 _update(widget.settings.copyWith(typingRhythm: value)),
@@ -299,14 +290,14 @@ class _SettingsPageState extends State<SettingsPage> {
             icon: Icons.privacy_tip_outlined,
             title: 'Private aggregate behaviour only',
             text:
-                'When enabled, MindSet stores only aggregate typing metrics and tentative results with a saved journal. It never stores raw key presses or a key-by-key history.',
+                'When enabled, MindSet stores only typing metrics and results with a saved journal.',
           ),
           const SizedBox(height: 18),
           const PrivacyNotice(
             icon: Icons.privacy_tip_outlined,
             title: 'You control what is analyzed',
             text:
-                'Your toggles and API endpoint stay on this device; journals save to your signed-in Firebase account.',
+                'Your toggles and API endpoint stay on this device, journals on your signed-in Firebase account.',
           ),
           const SizedBox(height: 18),
           SettingsActionTile(
