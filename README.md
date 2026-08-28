@@ -278,14 +278,12 @@ git lfs pull
 If the error contains `lookup github.com: no such host`, check the computer's internet/DNS connection and retry.
 
 ## `faster_whisper` is unavailable
-
 Install the STT requirements:
 pip install -r requirements_stt.txt
 
 Restart Uvicorn afterwards.
 
 ## Audio model is unavailable
-
 Install the audio requirements:
 pip install -r audio_emotion/requirements_audio.txt
 
